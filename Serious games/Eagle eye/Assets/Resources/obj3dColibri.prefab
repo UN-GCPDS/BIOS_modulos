@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5856337558071348814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 34.652397
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 34.652397
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 34.652397
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.349
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.116
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69086236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.69086266
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.15069516
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15069504
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      propertyPath: m_Name
+      value: obj3dColibri
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2380652002424070221}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4619647718204671478}
+  m_SourcePrefab: {fileID: 100100000, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+--- !u!1 &6738662859700581151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a172f036e7d11574e80a2638b0891955, type: 3}
+  m_PrefabInstance: {fileID: 5856337558071348814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2380652002424070221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738662859700581151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.007842273, y: 0.009432665, z: 0.009195022}
+  m_Center: {x: 0.000008642905, y: -0.00004105061, z: -0.000056430246}
+--- !u!114 &4619647718204671478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738662859700581151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d183108fcf71174b83534aeca11da06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: Colibri
